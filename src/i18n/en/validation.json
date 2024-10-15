@@ -1,0 +1,6 @@
+{
+  "MUST_BE_A_STRING": "{property} must be a string",
+  "MUST_BE_A_BOOLEAN": "{property} must be a boolean",
+  "NOT_EMPTY": "{property} cannot be empty",
+  "MUST_BE_A_EMAIL": "{property} must be an valid email address"
+}

@@ -1,0 +1,14 @@
+version: '3.8'
+
+services:
+  nestjs-app:
+    build:
+      context: .
+      dockerfile: Dockerfile.dev  # Use the development Dockerfile
+    ports:
+      - "4000:3011"
+      - "4001:3002"
+      - "9229:9229"  # Debugger port
+    volumes:
+      - .:/app  # Volume mapping for hot-reloading
+      - /app/node_modules  # Exclude node_modules
